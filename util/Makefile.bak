@@ -1,0 +1,20 @@
+DYNLIBS = libsi_util.so
+OBJECTS = si_util_mmap.o si_util_packet.o
+LDFLAGS = -L.
+INCFLAGS = -I../
+CCFLAGS = -Wall
+SHARED = -shared
+
+CC = gcc
+
+$(DYNLIBS) : $(OBJECTS)
+	@echo "Building dynamic library $@"
+	@$(CC) $(SHARED) $(OBJECTS) -o $@ 
+
+%.o : %.c %.h
+	@echo "Compiling $@ to $<"
+	@$(CC) -c $< -o $@ $(INCFLAGS) $(CCFLAGS)
+
+clean :
+	rm -rf $(OBJECTS) $(TARGET)
+# DO NOT DELETE

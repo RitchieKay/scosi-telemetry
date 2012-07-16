@@ -1,0 +1,144 @@
+AOC0000	3	IAM TO NM Transition
+AOC1000	3	Safe Mode Overview
+AST0001	3	AST Overview
+AST0005	3	AST Monitors
+AST0100	3	AST Attitude TM Packet
+AST0200	3	AST-A HK TM Packet
+AST0201	3	AST-B HK TM Packet
+AST0260	3	AST-A Parameters
+AST0261	3	AST-B Parameters
+CDM0001	3	CDMU HW Status
+CDM0002	3	CDMU HW Voltages
+CDM0007	1	Separation + Autosequence
+CDM0010	3	CDMU Status - HPTM
+CDM0103	3	Scrub Status and Configuration 1
+CDM0104	3	Scrub Status and Configuration 2
+CDM0105	3	CDMU SCV_CONFIG (NOMINAL APSW)
+CDM0115	3	CDMU SCV_CURRENT
+CDM0120	3	General HK SIDs Status (1-40)
+CDM0121	3	General HK SIDs Status (41-96)
+CDM0125	3	General Diagnostic SIDs Status
+CDM0300	3	MMU - Packet Stores Overview
+CDM0301	3	MMU A - Overview
+CDM0302	3	MMU B - Overview
+CDM0500	3	System Log Overview
+CDM0501	3	System Log (A and B) Details
+CDM1000	3	Data Handling Overview
+CDM1001	3	CDMU HW Overview
+CDM1002	3	PCOAs Overview
+CDM1003	3	IOGA Board Overview
+CDM1004	3	IOGB Board Overview
+CDM1005	3	IOGC Board Overview
+CDM1006	3	IOPA Board Overview
+CDM1007	3	IOPB Board Overview
+CDM1008	3	IOSA Board Overview
+CDM1009	3	IOSB Board Overview
+CDM1010	3	General PUS Services Status
+CDM1011	3	General OBCP Status
+CDM1012	3	General On-Board Time Status
+CDM1020	3	Internal CDMU Temperatures
+CDM2000	3	CDMU General Status (HPTM A - B)
+CDM2001	3	CDMU Current Alarms (HPTM A - B)
+CDM2002	3	Snapshot at Last Reconf (HPTM A)
+CDM2003	3	Snapshot at Last Reconf (HPTM B)
+CDM2100	3	CDMU Core Status (HPTM A)
+CDM2102	3	CPDM Function Status (HPTM A-B)
+CDM2103	3	MM -  X-band Status (HPTM A - B)
+CDM2105	3	IO-Boards Status (HPTM A)
+CES0001	3	CESS General
+CES0002	3	CESS Calibration Parameters
+CES0003	3	CESS Thermistors Temperatures
+CONTROL	1	Control System Packets
+EPS002	3	BATTERY STATUS
+EPS003	3	PCDU General TM
+EPS105	3	PCDU - DC DC Converter Status
+EPS110	3	PCDU - LCL Reg Board A
+EPS120	3	PCDU - LCL Reg Board B
+EPS130	3	PCDU - FCL and TK Boards
+EPS140	3	PCDU - LCL Unreg Board A,B
+EPS200	3	SOLAR ARRAY
+EPS210	3	SOLAR ARRAY Deployment Status
+EPS300	3	PCDU - Unreg ES SW Htr Set N - 1
+EPS310	3	PCDU - Unreg ES SW Htr Set N - 2
+EPS320	3	PCDU - Unreg ES SW Htr Set R - 1
+EPS330	3	PCDU - Unreg ES SW Htr Set R - 2
+EPS350	3	PCDU HPTM
+FRAME	3	PRIMARY HEADER and TRAILER
+GPS0000	3	GPS Overview
+GPS0001	3	GPS Primary PVT TM
+GPS0002	3	Estimated Position and Velocity
+HPTM_1	3	SYSTEM and CDMU STATUS
+HPTM_2	3	SGM W3 RF and GIF
+HPTM_3	3	SGM W4 PCDU and LV
+HPTM_4	3	CPDM SELECTOR
+HPTM_5	3	FAR and CPDU STATUS REPORTS
+HPTM_6	3	CURRENT ALARM STATUS
+HPTM_7	3	ALARM STATUS LAST RECONFIG
+ALD0001	3	ALADIN POWER STATUS
+ALD0002	3	ALADIN MODE CHANGE STATUS CHECK
+HPTM_8	3	SYSTEM, CDMU STAT LAST RECONFIG
+HPTM_9	3	PM BOOT and RAM TEST REPORT
+IMU0000	3	IMU Overview
+IMU0001	3	IMU 1 Overview
+IMU0002	3	IMU 2 Overview
+IMU0003	3	IMU 3 Overview
+IMU0004	3	IMU 4 Overview
+LEO0001	3	LEOP AutoSeq 1
+LEO0002	3	LEOP AutoSeq 2
+LEO0003	3	LEOP AutoSeq 3
+MTM0000	3	Magnetometers Overview
+MTQ0001	3	MTQs Overview
+PSS1	1	PSS ACK AND EVENT
+PSS2	1	PSS HK AND HPR
+PSS3	1	PSS TIME AND IDLE
+RCS0000	3	RCS Overview
+RCS0001	3	Catbed Heaters
+RFS0001	3	RFS A-chain overview
+RFS0002	3	RFS B-chain overview
+RFX001	3	XBS A Overview
+RFX002	3	XBS B Overview
+RMU0000	3	RMU Overview
+RWU0000	3	RWU General 1
+RWU0001	3	RWU General 2
+RWU0002	3	RWU Measurements
+SVT0001	3	SVT0 S/C handover - SYS
+SVT0002	3	SVT0 S/C handover - CDMU I
+SVT0003	3	SVT0 S/C handover - CDMU II
+SVT0004	3	SVT0 S/C handover - RF
+SVT0005	3	SVT0 S/C handover - EPS + TCS
+SVT0006	3	SVT0 S/C handover - AOCS I
+SVT0007	3	SVT0 S/C handover - AOCS II
+SVT0008	3	SVT0 S/C handover - AOCS III
+SVT0009	3	SVT0 S/C handover - Aladin + SH
+SVT0010	1	UI TIME PARAMETERS
+SYS001	3	SCV - NOM
+SYS002	3	SCV - SAFE
+SYS003	3	SCV - HEALTH
+SYS004	3	SCV -  PWR
+SYS005	3	SCV - TM
+SYS006	3	SCV - OP
+TCO	1	Time Correlation
+TCS001	3	SW Heater Control - Sets 1 and 2
+TCS002	3	SW Heater Control - Sets 3 and 4
+TCS003	3	SW Heater Control - Sets 5 and 6
+TCS004	3	SW Heater Control - Sets 7 and 8
+TCS010	3	Non SW monitored Thermistors
+TCS020	3	MIXED
+TCS030	3	SAFE Mode HTR circuits LCL7A, 7B
+TCS031	3	SAFE Mode HTR circuits LCL 8A
+TCS032	1	SAFE Mode HTR circuits LCL 8B
+TCS100	3	TCT Descriptors HKTM 1-4
+TCS110	3	TCT Descriptors HKTM 5-8
+TCS120	3	TCT Descriptors HKTM 9-12
+TCS130	3	TCT Descriptors HKTM 13-16
+TCS140	3	TCT Descriptors HKTM 17-20
+TCS150	3	TCT Descriptors HKTM 21-24
+TCS160	3	TCT Descriptors HKTM 25-28
+TCS170	3	TCT Descriptors HKTM 29-32
+TCS200	3	TCS Descriptor Status 1 - 8
+TCS210	3	TCS Descriptor Status 9 - 16
+TCS220	3	TCS Descriptor Status 17 - 24
+TCS230	3	TCS Descriptor Status 25 - 32
+TEMP_32	1	Temporary Display
+TEMP_64	3	Temporary Display
+ALD0003	3	ALADIN ACTIVATION STATUS CHECKS

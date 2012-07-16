@@ -1,0 +1,351 @@
+100	No Yes	U	2
+1000	MemoryID	U	42
+1001	MILBus Ext/Int	U	2
+1002	MILBus Nom/Red	U	3
+1003	MILBus RT-Addr	U	17
+1004	MILBus R/T Bit	U	2
+101	RF Flag	U	2
+102	Bit Lock	U	2
+105	TC Virtual Channel	U	2
+106	No RF Lock	U	2
+107	No Bit Lock	U	2
+108	Lockout	U	2
+109	Wait	U	2
+110	Retransmit	U	2
+1100	dummy calibration	U	2
+1101	DisableEnable Status	U	2
+1102	activePM	U	2
+1103	NOK_OK	U	2
+1104	PM Boot Speed1	U	2
+1105	OFF_ON	U	2
+1106	DISCARD_ENABLE	U	2
+1107	LastMap	U	5
+1108	ExpectedParity	U	2
+1109	LoadedImage	U	2
+1110	TestConnectorActive	U	2
+1111	Decoder_Channel	U	4
+1112	ErrCnt	U	8
+1113	Data_Notdetected_detected	U	2
+112	Grouping Flags	U	2
+1130	NoInter_Inter	U	2
+118	FRAME LIMIT CRITERIA	U	2
+119	Version ID	U	2
+1205	ON_OFF Status	U	2
+121	TM Virtual Channel	U	6
+123	Absent Present	U	2
+124	Synchronisation	U	2
+125	Packet Order	U	4
+127	Segment Length 	U	4
+128	Word Type	U	2
+129	Valid Invalid 2 Bit	U	2
+134	COP ID	U	2
+135	Valid Invalid 3 Bit	U	2
+139	Zero One	U	2
+141	Two Bit Counter	U	4
+143	One Bit Counter	U	2
+149	IMU Selection	U	16
+1500	DisableEnable Status	U	2
+1501	OpenClose Status	U	2
+1502	deselectedSelected Status	U	2
+1503	ArmDisarm Status	U	2
+1504	PM Selection	U	2
+1506	PM Boot Speed2	U	2
+1508	DiscardReceive Status	U	2
+1509	CPDU_LstP_Status	U	4
+1510	NotAbort_Abort Status	U	2
+1511	NoError_Error Status	U	2
+1512	CPDU_done Status	U	2
+1513	Csel_Busy Status	U	2
+1514	ok_fail Status	U	2
+1515	CDMU_CSEL Mode	U	4
+1516	stowed_deployed	U	2
+1517	Shunt Status	U	2
+1518	TIMEOUT	U	2
+1519	TC Decoder Authentication	U	8
+1520	Frametype	U	4
+1521	Frame_illegal_Reason	U	8
+1522	TC Decoder Frame Analysis	U	8
+1523	TC Decoder Stat	U	2
+1524	Alarm_Noalarm Status	U	2
+1525	Success_Failure	U	2
+1526	Warm_Cold Start	U	2
+1527	RM_SWenable_SET_OFF	U	2
+1528	RM_LCTenable_disable	U	2
+1529	RM_RMHenable_disable	U	2
+153	EOC SETTING	U	7
+1530	InactiveActive	U	2
+1531	FCVTimeout	U	2
+1532	OpenClose_2bit	U	4
+1533	LV_Timeout_3bit	U	6
+1534	InactiveActive_5bit(1)	U	32
+1535	InactiveActive_5bit(2)	U	32
+1540	Plug_inst_missing	U	2
+1550	Coherent_NoCoherent Status	U	2
+1551	TXon_TXoff Status	U	2
+1552	RGon_RGoff Status	U	2
+1553	X-Bd Switch Status_1	U	2
+1554	X-Bd Switch Status_1	U	2
+1560	NotRotated_Rotated	U	2
+1561	NotSeparated_Separated	U	2
+159	OBSW_VERSION	U	2
+1601	CloseOpen Status	U	2
+1602	CTRL_active	U	2
+1603	AllClosed_AnyOpen	U	2
+1604	Batt_Threshold_Status	U	2
+1605	AnyClosed_AllOpen	U	2
+1610	HW_Test_Active_Inactive	U	2
+1611	EEPROM_WriteStatus	U	2
+1612	PM_Enabled_Disabled	U	2
+1613	Selected_TM_OBT	U	2
+1614	Toggle RM WD	U	1
+1615	SW_Alarm	U	2
+1616	Use redundant Instrument I/F	U	2
+3001	TmId_to_IHT6xxxx	U	335
+3002	Monitoring Flags	U	2
+3003	FAU Consistency Check	U	2
+3004	Power ON/OFF	U	2
+3005	Activate Status	U	2
+3006	Uplink Status	U	2
+3007	FomId_to_FomName	U	55
+3008	Global Diable Flag	U	2
+3011	InstrumentMode	U	13
+3012	FAU processing status	U	2
+3013	FAU transmission verification	U	2
+3014	last transaction status	U	2
+3015	last comparision result	U	2
+3016	RedundancySelection	U	2
+3017	En/Dis BRC TC proc	U	2
+3018	TC processing in prog	U	2
+3019	En/Dis Soobs Proc	U	2
+3020	Soobs detected	U	2
+3021	En/Dis HK Acquisition	U	2
+3022	Transition in progress	U	2
+3023	BRC counter	U	2
+3024	En/Dis ISP Generation	U	2
+3025	Config selection	U	2
+3027	TMglobDisable	U	2
+3037	PPS COUNTER	U	8
+3041	DELAY Param (MSB) / DT1	U	4
+3043	DELAY Param (MSB) / DT3	U	2
+3046	DELAY Param (MSB) / DT4	U	8
+3204	Chan INTEGRATION TIME	U	8
+3992	enumeration 2 bit	U	4
+3993	enumeration 3 bit	U	8
+3994	enumeration 4 bit	U	16
+3995	enumeration 5 bit	U	32
+3996	enumeration 6 bit	U	64
+3997	enumeration 7 bit	U	128
+4020	_e_MILBUSActionTableRate	U	7
+4021	_e_virtual_channels	U	2
+4023	_e_Thruster_Numbers	U	5
+4024	_e_AOCS_MODE_TYP	U	4
+4026	_e_MILBUS_bus	U	4
+4027	_e_Post_Processing_Results	U	7
+4029	_e_ttr_board	U	2
+4030	_e_RTEMS_status	U	29
+4031	_e_UNIT_STATUS	U	2
+4032	_e_AOCS_UNIT_TYP	U	20
+4034	_e_IAM_STATE_TYP	U	4
+4035	_e_ACQUISITION_TYP	U	3
+4036	_e_SLEW_TYP	U	4
+4037	_e_TCM_STATE_TYP	U	3
+4038	_e_TCM_MAN_TYPE_TYP	U	3
+4039	_e_TCM_MAN_FLAG_TYP	U	5
+4057	_e_MM_BOARD	U	2
+4065	_e_AOCS_OBJECT_TYP	U	15
+4067	_e_YES_NO	U	2
+4068	_e_OFF_ON	U	2
+4069	_e_AST_INIT_MODE	U	2
+4072	_e_SCV_NOM	U	3
+4073	_e_SCV_ON_OFF	U	3
+4074	_e_SCV_HEALTH	U	3
+4075	_e_SCV_OP	U	3
+4076	_e_ELEMENT_ID_TYP	U	60
+4077	_e_CESS_MODE_TYP	U	8
+4096	_e_NM_MANOEUVRES_TYP	U	4
+4099	_e_NM_ATTITUDE_TYP	U	2
+4101	_e_MM_BANK_POS	U	3
+4143	_e_MTQ_COIL_TYP	U	3
+4153	_e_AST_TM_RATE	U	3
+4154	_e_AST_ATT_STAT_TM	U	3
+4163	_e_NM_STATE_TYP	U	3
+4168	_e_NM_LAW_TYP	U	3
+4169	_e_MEM_ID_TYP	U	34
+4170	_e_SCV_ON_OFF_VAL	U	3
+4171	_e_SCV_OP_VAL	U	3
+4188	_e_BOOT_PATH	U	2
+4189	_e_TCA	U	2
+4190	_e_LOADED_IMAGE	U	2
+4191	_e_WARM_COLD_START	U	2
+4192	_e_OK_FAILED	U	2
+4193	_e_CPDU_PktSrc	U	5
+4194	_e_RM_TEMP_MODE	U	2
+4195	_e_DISABLE_ENABLE	U	2
+4223	_e_TTR_TM_DATA_SYNC	U	3
+4224	_e_TTR_TM_IDLEPKTINS_T	U	8
+4225	_e_TTR_TM_PWRIFSEL_T	U	2
+4226	_e_TTR_VC_T	U	8
+4227	_e_TTR_TM_VCMALG_T	U	2
+4228	_e_TTR_TM_FRAMELEN_T	U	8
+4229	_e_TTR_TM_CLCWSEL_T	U	4
+4230	_e_TTR_TM_TIMESTROBE_T	U	10
+4231	_e_TTR_TM_TURBOENC_T	U	5
+4232	_e_TTR_TM_CONVENC_T	U	7
+4233	_e_TTR_TM_PSKSINE_T	U	3
+4234	_e_TTR_TM_PSKSQUARE_T	U	3
+4235	_e_TTR_TM_SPL_T	U	2
+4236	_e_TTR_TM_NRZ_T	U	2
+4258	_e_ACTIVE_PM_ID	U	2
+4259	_e_RESET_CAUSE	U	2
+4260	_e_OBT_MODE_TYP	U	4
+4261	_e_MODIFY_OBT_ACTION_TYP	U	3
+4262	_e_LCL_OPEN_CLOSE	U	2
+4263	_e_TX_ON_OFF	U	2
+4264	_e_COH_NOCOH	U	2
+4265	_e_ON_OFF	U	2
+4266	_e_XBD_SWITCH_STATUS	U	2
+4267	_e_FIDR_Volts_Status	U	32
+4268	_e_FIDR_Temp_Status	U	4
+4269	_e_FIDR_Chu_Status	U	8
+4350	_e_CHECK_STATUS_TYP	U	6
+4375	_e_BUFFER_MODE_TYP	U	4
+4380	_e_AST_VERIFICATION_CODE	U	20
+4381	_e_PACKET_STORE_IF_TYP	U	6
+4382	_e_OBCP_PRIORITY	U	2
+4383	_e_InterruptNum	U	8
+4611	_e_TRUE_FALSE	U	2
+4697	_e_SM_STATE_TYP	U	4
+4699	_E_SM_ACQUISITION_TYP	U	3
+4700	_E_SM_SLEW_TYP	U	4
+4701	_e_NOM_RED_UNIT_TYP	U	2
+4702	_e_IAM_ATTITUDE_SLEW_TC_REJECT	U	3
+4703	_e_DELTA_EPOCH_ERROR_TYP	U	2
+5000	TC_APIDS	U	8
+5003	ENABLE_DISABLE	U	2
+5006	OBT_Sync_Status	U	4
+5007	TM_APIDS	U	26
+5009	_e_DP_ERROR_TYP	U	8
+5010	_e_INT_NON_CYCLIC_LIST	U	3
+5011	_e_EXT_NON_CYCLIC_LIST	U	9
+5125	_e_SID_STATUS	U	4
+5901	TCS_CtrlLoopState	U	2
+5902	TCS_HeaterBranch	U	3
+5903	TCS_Thermistor	U	141
+5904	TCS_ControlMethod	U	4
+5905	TCS_SwitchState	U	3
+5906	TCS_CircuitOperation	U	3
+5907	TCS_PCDU_SEL	U	3
+5908	TCS_DescriptorState	U	2
+5909	ResetSequenceRunning	U	2
+7000	AST_TC_Failure	U	16
+7008	IMU_ADC Survey	U	2
+7009	IMU_Hard Reset	U	2
+7010	IMU_Optical Power Delta	U	2
+7011	IMU_Input Rate	U	2
+7012	IMU_Power Max Threshold	U	2
+7013	IMU_Power Min Threshold	U	2
+7014	IMU_VPI Loop Error	U	2
+7015	IMU_ADC Saturation	U	2
+7016	IMU_Autotest Result	U	2
+7017	IMU_Autotest Status	U	2
+7018	IMU_Validity Bit	U	2
+7019	IMU_Source Control	U	2
+7020	IMU_Critical/Operation Enabled	U	2
+7021	IMU_Continuous Mode	U	2
+7022	IMU_Synchro Type	U	2
+7023	IMU_Simple 1553 RT	U	2
+7024	IMU_AS 16/CS 16 Protocol	U	2
+7025	IMU_Frame Error	U	2
+7026	IMU_Data Low Byte Error	U	2
+7027	IMU_Parity Error	U	2
+7028	RWU_Wheel Direction	U	2
+7029	RWU_OST Status	U	2
+7030	RWU_Heater Status	U	2
+7051	AST_ Status Valid	U	2
+7052	AST Mode	U	6
+7070	False/True	U	2
+7100	IMU_Critical/Oper_Enable/Disable	U	8
+7101	IMU_OverWriteSynchroType	U	4
+7102	IMU_CONT/SYNCH_MODE_C	U	4
+7210	InstrFuncParam	U	10
+7999	DUMMY_CALIBRATION	U	2
+8006	Th Ctrl/Param SELECTION	U	3
+8034	OPERATIONAL MODE	U	13
+8048	Th Ctrl / Loop control	U	3
+8049	Heater Group : Selection	U	3
+8050	Protect Enable/Disable	U	3
+8051	Nom or Red IF	U	4
+8052	Set / Reset	U	3
+8053	Always / Burst	U	3
+8054	High / Low	U	3
+8055	OFF / ON 1 bit	U	2
+8056	Open / Closed	U	2
+8057	ON / OFF 2 bits	U	3
+8058	Led 1 / Led 2	U	2
+8059	Coherent / Incoherent	U	2
+8061	OK / Fail	U	2
+8063	Received / None	U	2
+8064	Time Out / None	U	2
+8071	PWM Open / Closed	U	2
+8072	No / Yes 1 bit	U	2
+8073	ON / OFF 1 bit	U	2
+8074	LCA Open / Close position	U	2
+8075	TXA Locked status	U	2
+8079	Failure sequencer status	U	4
+8080	Failure transition stat	U	2
+8081	Failure check status	U	4
+8201	DEU_MODE	U	5
+8205	BACKGND INTEGR TIME	U	8
+8207	IMAGING INTEGR TIME	U	4
+8215	Chan TEST MODE	U	4
+8216	Chan TEST PATTERN	U	5
+8217	DEU TEST MODE	U	4
+8222	DEU TEST CONNECT. INTER	U	16
+8224	SELECT SIGNAL SOURCE	U	32
+8260	OBSERVATION ACTIVE ST	U	2
+8261	OBSERV. COMPLETED STAT.	U	2
+8262	OBSERVATION STATUS	U	2
+8263	MCLK STATUS	U	2
+8264	DRD TRANSMISSION STATUS	U	2
+8265	OPERATING CMD STATUS	U	2
+8266	DFU Th Ctrl (TEC) OVC	U	2
+8268	AD-CONVERT. LATCH-UP ST	U	2
+8270	ON-GROUND TEST STATUS	U	2
+8271	RESOLUTION SEL. STATUS	U	8
+8272	ON / OFF 4 bits	U	3
+8273	Open / Closed	U	2
+8403	FILTER SMOOTHING	U	4
+8404	OCK_DET_TRHESHOLD	U	4
+8405	OCK_CORRECTION_PERIOD	U	4
+8406	CL_CL LOCKING POSITION	U	4
+8407	OCK STATUS	U	4
+8409	CL-CL PEAK SEPARATION	U	4
+8410	DET PEAK NUM	U	4
+8411	CL-CL  STATUS	U	4
+8412	OCK_MAX_PEAK_SEP	U	4
+8413	PEAK_AMPLITUDE	U	4
+8416	CL-CL ST FLOAT OFFSET	U	4
+8430	Actual Op mode	U	5
+8431	OK / NOK	U	2
+8456	ON / OFF	U	2
+8457	Protection ON / OFF	U	2
+8458	Tuned / Not tuned	U	2
+8459	Locked / Not locked	U	2
+8460	In range / Not in range	U	2
+8462	High / Low current	U	2
+8463	Nom / Red IF	U	2
+8464	Protect Enable / Disable	U	2
+8465	Nominal Op / Failure	U	2
+8466	Cmd rejected status	U	2
+8467	Commanded Op mode	U	5
+8468	Enabled / Disabled 	U	2
+8469	MO LD Nom/Red selection	U	2
+8477	PEAK_detection	U	4
+8479	RLH_PLL_Treshold	U	4
+8483	BURST Status	U	4
+8484	RLH_Cmd_Trans_error	U	2
+8491	Failure identification	U	2
+996	Correlation Type	U	2
+997	AD_BD	U	2
+998	DISABLED_ENABLED	U	2
+999	False True	U	2

@@ -1,0 +1,5 @@
+*.o
+*.so
+*.pyc
+*.tlb
+installation

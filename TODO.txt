@@ -1,0 +1,21 @@
+Create a validity table which, for each validity parameter, lists the parameters whose validity is determined
+by that parameter.
+
+The param info will be extended to show the location of this information in the validity table.
+
+Thus when a parameter is processed we can look to see if it is a validity parameter. If it is we can mark each parameter as
+invalid.
+
+Perhaps we do need to process the packet twice once going through all parameters to get the values and once going through
+all validity parameters to set validities?
+
+A similar trick could be used for relational parameters since these determine which validity checks should be applied. In other
+words we process the relational parameters and set a flag in the PVT for each limit checked parameter which limit then to use
+when the value is next checked.
+
+This means that we should first process validity and relational parameters in a packet and then all other values. If we then 
+wanted to processes validities of validities etc then this becomes a database task - i.e. to order the extraction of parameters
+in a packet such that the ones which other parameters in the packet may depend on come first. The code just then processes each 
+one in turn.
+
+Initially we will ensure that we process validities first, relational next, and then the rest.
